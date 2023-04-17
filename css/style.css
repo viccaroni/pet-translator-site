@@ -20,7 +20,7 @@ font-size: large;
 position: relative;
 color: white;
 text-decoration: none;
-right: 2em;
+
 }
 .checkout-icon{
   cursor: pointer;
@@ -31,8 +31,8 @@ right: 2em;
   padding-left: 2em;
   padding-right: 2em;
 font-size: large;
-position: relative;
-right: 2em;
+text-align: center;
+
 }
 #header-2{
   background-color: #bdacde;
@@ -45,13 +45,30 @@ right: 2em;
   cursor: pointer;;
 }
 #chatterbox{
-  position: absolute;
-  top: 10em;
-  left: 28em;
+  position: relative;
   color: white;
+text-align: center;
+right: 4em;
+margin-left: 6em;
 }
-p{
+.home-text{
   text-align: center;
   color: white;
-  font-size: larger;
+
 }
+.card-group{
+  position: absolute;;
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+
+
+
+
