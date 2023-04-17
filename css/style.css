@@ -1,0 +1,31 @@
+html,
+body {
+    font-family: 'Bree Serif', serif;
+  background-color: #c1c8e4;
+}
+.text-end{
+background-color: #5680e9;
+}
+.login, .signup{
+  color: white;
+  text-decoration: none;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.checkout{
+float:right;
+padding-left: 2em;
+padding-right: 2em;
+}
+.home, .products, .checkout{
+  color: white;
+  text-decoration: none;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+.text-center{
+  background-color: #8860d0;
+  padding: 2em;
+}
